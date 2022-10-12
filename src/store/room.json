@@ -1,0 +1,103 @@
+[
+    {
+        "eTag": 20221005134910,
+        "conferenceRoom": {
+            "id": "RU/77/28/0007/103",
+            "bookingStatus": "available",
+            "name": "Бабочка",
+            "roomType": {
+                "id": "01",
+                "name": "Переговорная"
+            },
+            "seatsCount": 10,
+            "room": "7.B.07",
+            "address": "г Москва, пр-кт Кутузовский, 32 к1",
+            "validForBooking": true,
+            "maxBookingDuration": 1
+        },
+        "parentList": [
+            {
+                "id": "RU/77/28/0007",
+                "type": "floor",
+                "name": "7-ой этаж (корп. B)"
+            },
+            {
+                "id": "RU/77/28",
+                "type": "building",
+                "name": "г Москва, пр-кт Кутузовский, 32 к1"
+            }
+        ]
+    },
+    {
+        "eTag": 20220606123918,
+        "conferenceRoom": {
+            "id": "RU/77/28/0007/105",
+            "bookingStatus": "available",
+            "name": "зима",
+            "roomType": {
+                "id": "02",
+                "name": "Аудитория"
+            },
+            "auditoriumType": {
+                "id": "01",
+                "name": "Лекционная аудитория"
+            },
+            "seatsCount": 50,
+            "approvalRequired": true,
+            "room": "7.C.21",
+            "address": "г Москва, пр-кт Кутузовский, 32 к1",
+            "validForBooking": true
+        },
+        "parentList": [
+            {
+                "id": "RU/77/28/0007",
+                "type": "floor",
+                "name": "7-ой этаж (корп. B)"
+            },
+            {
+                "id": "RU/77/28",
+                "type": "building",
+                "name": "г Москва, пр-кт Кутузовский, 32 к1"
+            }
+        ]
+    },
+    {
+        "eTag": 20220221093948,
+        "conferenceRoom": {
+            "id": "RU/77/28/0007/107",
+            "bookingStatus": "available",
+            "name": "Космос 33131",
+            "roomType": {
+                "id": "01",
+                "name": "Переговорная"
+            },
+            "room": "7.K.01.1",
+            "address": "г Москва, пр-кт Кутузовский, 32 к1",
+            "validForBooking": true,
+            "pauseAfterBooking": 5,
+            "maxBookingDuration": 1
+        },
+        "parentList": [
+            {
+                "id": "RU/77/28/0007",
+                "type": "floor",
+                "name": "7-ой этаж (корп. B)"
+            },
+            {
+                "id": "RU/77/28",
+                "type": "building",
+                "name": "г Москва, пр-кт Кутузовский, 32 к1"
+            }
+        ],
+        "equipmentList": [
+            {
+                "id": "CFR002",
+                "name": "ВКС"
+            },
+            {
+                "id": "CFR001",
+                "name": "ТКС"
+            }
+        ]
+    }
+]
